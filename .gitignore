@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+lib/
+es/
+
+# NestJS specific build outputs
+.webpack/
+
+# TypeScript
+*.tsbuildinfo
+typings/
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+
+# Cache directories
+.npm
+.yarn-integrity
+.eslintcache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.rollup.cache
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Optional directories
+jspm_packages/
+bower_components/
+.grunt/
+tmp/
+temp/
+
+# Package files
+*.tgz
+
+# Optional REPL history
+.node_repl_history
+
+# Framework specific
+.next/
+.nuxt/
+.out/
+.storybook-out/
+
+# Tools
+.turbo/
+.vercel/
+.sentryclirc
+.husky/_
+.prettierignore
+
+# Package lock files (choose one based on your preference)
+# If using npm, uncomment the next line and remove yarn.lock from git
+# package-lock.json
+# If using yarn, uncomment the next line and remove package-lock.json from git  
+# yarn.lock 

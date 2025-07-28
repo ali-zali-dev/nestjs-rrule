@@ -1,0 +1,56 @@
+{
+    "name": "@nestjs/rrule",
+    "version": "1.0.0",
+    "description": "NestJS module for rrule - recurrence rule parsing and generation",
+    "main": "dist/libs/nestjs-rrule/index.js",
+    "types": "dist/libs/nestjs-rrule/index.d.ts",
+    "keywords": [
+        "nestjs",
+        "rrule",
+        "recurrence",
+        "calendar",
+        "scheduling"
+    ],
+    "author": "Ali Zali",
+    "license": "MIT",
+    "scripts": {
+        "build": "nest build",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:cov": "jest --coverage"
+    },
+    "dependencies": {
+        "@nestjs/common": "^11.1.5",
+        "@nestjs/core": "^11.1.5",
+        "reflect-metadata": "^0.2.2",
+        "rrule": "^2.8.1",
+        "rxjs": "^7.8.2"
+    },
+    "devDependencies": {
+        "@nestjs/cli": "^11.0.7",
+        "@nestjs/testing": "^11.1.5",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.1.0",
+        "jest": "^30.0.5",
+        "ts-jest": "^29.4.0",
+        "ts-loader": "^9.5.2",
+        "typescript": "^5.8.3"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "ts"
+        ],
+        "rootDir": ".",
+        "testRegex": ".*\\.spec\\.ts$",
+        "transform": {
+            "^.+\\.(t|j)s$": "ts-jest"
+        },
+        "collectCoverageFrom": [
+            "libs/**/*.(t|j)s"
+        ],
+        "coverageDirectory": "./coverage",
+        "testEnvironment": "node"
+    }
+}

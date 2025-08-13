@@ -16,13 +16,13 @@ A comprehensive NestJS module wrapper for [rrule](https://github.com/jakubroztoc
 Install directly from GitHub:
 
 ```bash
-npm install git+https://github.com/ali-zali-dev/nestjs-rrule.git
+npm install nestjs-rrule
 ```
 
 or
 
 ```bash
-yarn add git+https://github.com/ali-zali-dev/nestjs-rrule.git
+yarn add nestjs-rrule
 ```
 
 > **Note:** This package is currently available via GitHub. An npm package will be published soon. The `rrule` dependency is automatically installed.

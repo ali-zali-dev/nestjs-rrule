@@ -1,6 +1,6 @@
 {
     "name": "nestjs-rrule",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Nest module wrapper for rrule",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -12,6 +12,14 @@
         "scheduling"
     ],
     "author": "Ali Zali",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ali-zali-dev/nestjs-rrule.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ali-zali-dev/nestjs-rrule/issues"
+    },
+    "homepage": "https://github.com/ali-zali-dev/nestjs-rrule#readme",
     "license": "MIT",
     "scripts": {
         "build": "nest build",

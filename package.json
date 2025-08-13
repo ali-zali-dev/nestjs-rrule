@@ -12,6 +12,14 @@
         "scheduling"
     ],
     "author": "Ali Zali",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ali-zali-dev/nestjs-rrule.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ali-zali-dev/nestjs-rrule/issues"
+    },
+    "homepage": "https://github.com/ali-zali-dev/nestjs-rrule#readme",
     "license": "MIT",
     "scripts": {
         "build": "nest build",
